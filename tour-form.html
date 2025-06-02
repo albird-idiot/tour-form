@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="tour registration form">
+    <meta name="keywords" content="tour,form">
+    <meta name="author" content="Pranto Roy">
+    <link rel="shortcut icon" href="assets/form2.png" type="image/x-icon">
+    <title>Tour Registration Form</title>
+</head>
+
+<body>
+    <h1 style="background-color:red"><b>Please Fill The Form</b></h1>
+    <form action="">
+        <fieldset>
+            <legend>Tour Registration Form</legend>
+            <div>
+                <label for="">Your Name</label>
+                <br>
+                <input placeholder="Enter Your Full Name" type="text" name="name" id="enter-name" minlength="5"
+                    maxlength="15" required>
+            </div><br>
+
+            <div>
+                <label for="">Your Email</label>
+                <br>
+                <input placeholder="Enter Your Email Address" type="email" name="email" id="enter-email" required>
+            </div><br>
+
+            <div>
+                <label for="">Your Phone Number</label>
+                <br>
+                <input placeholder="Enter Your Phone Number" type="number" name="phone" id="enter-phone" maxlength="11"
+                    required>
+            </div><br>
+
+            <div>
+                <label for="">Your Company</label>
+                <br>
+                <input type="text" name="name" id="enter-company" value="MediTel pharma" readonly>
+            </div><br>
+
+            <div>
+                <label for="">Your Date of Birth</label>
+                <br>
+                <input placeholder="Enter Your Date of Birth" type="date" name="birthday" id="enter-birthday" required>
+            </div><br>
+
+            <div>
+                <label for="">Your Age</label><br>
+                <input placeholder="Enter Your Age" type="number" minlength="18" maxlength="30">
+            </div><br>
+            <div>
+                <label for="">Your Joining Date</label>
+                <br>
+                <input placeholder="Enter Your Joining Date" type="datetime-local" name="Joining date"
+                    id="enter-joiningdate">
+            </div><br>
+            <div>
+                <label for="">Your Gender</label>
+                <br>
+                <input type="radio" name="gender" id="">Male
+                <input type="radio" name="gender" id="">Female
+            </div><br>
+            <div>
+                <label for="">Your Travel Destination</label><br>
+                <input type="checkbox">Darjeeling<br>
+                <input type="checkbox">Meghalaya<br>
+                <input type="checkbox">Manali<br>
+                <input type="checkbox">Shimla<br>
+                <input type="checkbox">Kashmir
+            </div><br>
+            <div>
+                <label for="">Your Favourite Color</label>
+                <input type="color">
+            </div><br>
+
+            <div>
+                <label for="">Your Photo</label>
+                <input type="file">
+            </div><br>
+
+            <div>
+                <label for="">Your Password</label><br>
+                <input type="password" placeholder="Enter Your Password" minlength="8">
+            </div><br>
+
+            <div>
+                <label for="">Your Difficulty Lavel</label>
+                <select required>
+                    <option>Easy</option>
+                    <option selected>Medium</option>
+                    <option>Hard</option>
+                </select>
+            </div>
+
+            <br>
+            <input type="submit" value="Register Now">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
